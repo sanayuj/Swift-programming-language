@@ -10,8 +10,22 @@ Num=23
 //let: Use let to declare immutable constants, which means their values cannot be changed after initialization.
 let Data=34
 
+var c: Float = 2.3
+var d:Double = 13.9
+var e:Bool = true
+print (Int(c))
+print (Int(d) )
+
 print(Data)
 print(Num)
 
 //variable declared with specify the datatype
-var myInteger: Int = 10
+var myInteger: Int = 210
+
+if myInteger<20{
+    print ("your num is less then 20")
+} else if myInteger==20{
+    print ("your num is equal to 20")
+}else{
+    print ("your num is greater then 20")
+}
