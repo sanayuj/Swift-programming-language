@@ -39,6 +39,24 @@ let result2 = a || b // result 2 equals true
 print(result)
 print(result2)
 
+let 🐶🐄:String="dogcow"
+print(🐶🐄)
+
+
+//switch condition operator
+
+let value:String="window Seat"
+
+switch value{
+case "middle Seat":
+    print("you booked middle seat")
+case "window Seat":
+    print ("you booked window seat")
+case "center Seat":
+    print("you booked middle seat")
+default:
+    print("no seat selected")
+}
 
 
 
