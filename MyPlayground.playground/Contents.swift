@@ -76,8 +76,25 @@ default:
 //for character in message {
 //    print(character)
 //}
+//
+//var dic=["a":2,"b":89,"c ":3]
+//for (item1,item2) in dic{
+//    print("key : \(item1), Value: \(item2)")
+//}
 
-var dic=["a":2,"b":89,"c":3]
-for (item1,item2) in dic{
-    print("key : \(item1), Value: \(item2)")
-}
+
+//while loop
+
+//var newResult=0
+//while newResult<10{
+//   newResult+=1
+//    print(newResult)
+//}
+
+//repeat-while loop
+
+var val=0
+repeat {
+    val+=1
+    print (val)
+}while(val<=20)
