@@ -45,18 +45,39 @@ print(🐶🐄)
 
 //switch condition operator
 
-let value:String="window Seat"
+let value:String="crew seat"
 
 switch value{
 case "middle Seat":
     print("you booked middle seat")
 case "window Seat":
     print ("you booked window seat")
-case "center Seat":
-    print("you booked middle seat")
+case "center Seat","crew seat":
+    print("you booked middle seat or crew seat")
 default:
     print("no seat selected")
 }
 
 
 
+//for index in 1...3{
+//    print(index)
+//}
+
+//
+//let newArray=[24,45,67,8,9]
+//
+//for value in newArray{
+//    print (value)
+//}
+
+
+//let message = "Hello, Swift!"
+//for character in message {
+//    print(character)
+//}
+
+var dic=["a":2,"b":89,"c":3]
+for (item1,item2) in dic{
+    print("key : \(item1), Value: \(item2)")
+}
