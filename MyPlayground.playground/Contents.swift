@@ -168,16 +168,16 @@ print(greeting)
 class Motorbike{
     var name:String
     var price:Int
-    init() {
-        self.name = "BWM"
-        self.price = 2000000
+    init(_ name:String,_ price:Int) {
+        self.name = name
+        self.price = price
     }
 }
 
-let newOrder=Motorbike()
+let newOrder=Motorbike("TVS",676767)
 print(newOrder.name)
 print(newOrder.price)
 
-newOrder.name="Royal"
-print(newOrder.name)
+//newOrder.name="Royal"
+//print(newOrder.name)
 
