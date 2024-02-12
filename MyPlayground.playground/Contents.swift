@@ -142,6 +142,12 @@ class Blogpost{
     
 }
 
+class car : Blogpost{
+    override func display() {
+        print("Nothing display!!!")
+    }
+}
+
 //class instance
 
 let newBlog=Blogpost()
@@ -154,3 +160,7 @@ newBlog.blogAuthor="kkkk"
 
 newBlog.display()
 print(newBlog.blogname)
+
+let newCar=car()
+newCar.display()
+
