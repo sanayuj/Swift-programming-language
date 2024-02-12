@@ -5,58 +5,58 @@ print(greeting)
 
 
 //var: Use var to declare mutable variables, which means their values can be changed after initialization.
-var Num=10
-Num=23
+//var Num=10
+//Num=23
 //let: Use let to declare immutable constants, which means their values cannot be changed after initialization.
-let Data=34
+//let Data=34
 
-var c: Float = 2.3
-var d:Double = 13.9
-var e:Bool = true
-print (Int(c))
-print (Int(d) )
-
-print(Data)
-print(Num)
+//var c: Float = 2.3
+//var d:Double = 13.9
+//var e:Bool = true
+//print (Int(c))
+//print (Int(d) )
+//
+//print(Data)
+//print(Num)
 
 //variable declared with specify the datatype
-var myInteger: Int = 210
+//var myInteger: Int = 210
 
 //condition statement
-if myInteger<20{
-    print ("your num is less then 20")
-} else if myInteger==20{
-    print ("your num is equal to 20")
-}else{
-    print ("your num is greater then 20")
-}
+//if myInteger<20{
+//    print ("your num is less then 20")
+//} else if myInteger==20{
+//    print ("your num is equal to 20")
+//}else{
+//    print ("your num is greater then 20")
+//}
 
 //logical operator
-let a = true
-let b = false
-let result = a && b  // result equals false
-let result2 = a || b // result 2 equals true
-print(result)
-print(result2)
-
-let 🐶🐄:String="dogcow"
-print(🐶🐄)
+//let a = true
+//let b = false
+//let result = a && b  // result equals false
+//let result2 = a || b // result 2 equals true
+//print(result)
+//print(result2)
+//
+//let 🐶🐄:String="dogcow"
+//print(🐶🐄)
 
 
 //switch condition operator
 
-let value:String="crew seat"
+//let value:String="crew seat"
 
-switch value{
-case "middle Seat":
-    print("you booked middle seat")
-case "window Seat":
-    print ("you booked window seat")
-case "center Seat","crew seat":
-    print("you booked middle seat or crew seat")
-default:
-    print("no seat selected")
-}
+//switch value{
+//case "middle Seat":
+//    print("you booked middle seat")
+//case "window Seat":
+//    print ("you booked window seat")
+//case "center Seat","crew seat":
+//    print("you booked middle seat or crew seat")
+//default:
+//    print("no seat selected")
+//}
 
 
 
@@ -91,10 +91,26 @@ default:
 //    print(newResult)
 //}
 
+
 //repeat-while loop
 
-var val=0
-repeat {
-    val+=1
-    print (val)
-}while(val<=20)
+//var val=0
+//repeat {
+//    val+=1
+//    print (val)
+//}while(val<=20)
+
+
+//Functions
+
+func sayHello(){
+    print("Hello")
+}
+
+sayHello()
+
+func addToNum(num1:Int,num2:Int){
+    print (num1+num2)
+}
+
+addToNum(num1:2,num2:5)
