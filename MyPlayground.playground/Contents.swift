@@ -103,14 +103,54 @@ print(greeting)
 
 //Functions
 
-func sayHello(){
-    print("Hello")
+//function without return value with argu
+
+//func sayHello(){
+//    print("Hello")
+//}
+
+//sayHello()
+
+//function with argu without return value
+
+//func addToNum(num1:Int,num2:Int){
+//    print (num1+num2)
+//}
+//addToNum(num1:2,num2:5)
+
+
+//function with argu with return value
+
+//func multiplyToNum(num1:Int,num2:Int)->Int{
+//    return (num1+num2)
+//}
+//let res=multiplyToNum(num1:12,num2:12)
+//print(res)
+
+
+
+//class
+
+class Blogpost{
+    var blogname=""
+    var blogTopic=""
+    var blogAuthor=""
+    func display()
+    {
+        print(blogAuthor)
+    }
+    
 }
 
-sayHello()
+//class instance
 
-func addToNum(num1:Int,num2:Int){
-    print (num1+num2)
-}
+let newBlog=Blogpost()
 
-addToNum(num1:2,num2:5)
+newBlog.blogname="Swift Docs"
+newBlog.blogTopic="Documentation description"
+newBlog.blogAuthor="Steve jobs"
+newBlog.blogAuthor="kkkk"
+
+
+newBlog.display()
+print(newBlog.blogname)
