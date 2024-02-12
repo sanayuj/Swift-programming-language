@@ -131,36 +131,53 @@ print(greeting)
 
 //class
 
-class Blogpost{
-    var blogname=""
-    var blogTopic=""
-    var blogAuthor=""
-    func display()
-    {
-        print(blogAuthor)
-    }
-    
-}
-
-class car : Blogpost{
-    override func display() {
-        print("Nothing display!!!")
-    }
-}
+//class Blogpost{
+//    var blogname=""
+//    var blogTopic=""
+//    var blogAuthor=""
+//    func display()
+//    {
+//        print(blogAuthor)
+//    }
+//    
+//}
+//
+//class car : Blogpost{
+//    override func display() {
+//        print("Nothing display!!!")
+//    }
+//}
 
 //class instance
 
-let newBlog=Blogpost()
+//let newBlog=Blogpost()
+//
+//newBlog.blogname="Swift Docs"
+//newBlog.blogTopic="Documentation description"
+//newBlog.blogAuthor="Steve jobs"
+//newBlog.blogAuthor="kkkk"
+//
+//
+//newBlog.display()
+//print(newBlog.blogname)
+//
+//let newCar=car()
+//newCar.display()
 
-newBlog.blogname="Swift Docs"
-newBlog.blogTopic="Documentation description"
-newBlog.blogAuthor="Steve jobs"
-newBlog.blogAuthor="kkkk"
 
+class Motorbike{
+    var name:String
+    var price:Int
+    init() {
+        self.name = "BWM"
+        self.price = 2000000
+    }
+}
 
-newBlog.display()
-print(newBlog.blogname)
+let newOrder=Motorbike()
+print(newOrder.name)
+print(newOrder.price)
 
-let newCar=car()
-newCar.display()
+newOrder.name="Royal"
+print(newOrder.name)
 
