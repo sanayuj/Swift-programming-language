@@ -221,7 +221,24 @@ print(greeting)
 //}
 
 
-var name=["sanay","akbar","rohith"]
-name+=["Unknown"]
-print(name)
-
+//var name=["sanay","akbar","rohith"]
+//name+=["Unknown"]
+//print(name)
+//
+////Declaring new variable
+//var carDB=[String:String]()
+//
+////Adding key value pair
+//carDB["Name"]="Sanay UJ"
+//
+////Retrieving data
+//carDB["Name"]
+//
+////Updating value
+//carDB["Name :"]="Something"
+//
+////carDB["Name"]=""
+//
+//for (value1,value2) in carDB{
+//    print(value1,value2)
+//}
