@@ -165,19 +165,37 @@ print(greeting)
 //newCar.display()
 
 
-class Motorbike{
-    var name:String
-    var price:Int
-    init(_ name:String,_ price:Int) {
-        self.name = name
-        self.price = price
-    }
-}
-
-let newOrder=Motorbike("TVS",676767)
-print(newOrder.name)
-print(newOrder.price)
+//class Motorbike{
+//    var name:String
+//    var price:Int
+//    init(_ name:String,_ price:Int) {
+//        self.name = name
+//        self.price = price
+//    }
+//}
+//
+//let newOrder=Motorbike("TVS",676767)
+//print(newOrder.name)
+//print(newOrder.price)
 
 //newOrder.name="Royal"
 //print(newOrder.name)
 
+
+
+class Motorbike {
+   
+    var location:String?
+    var company="BMW"
+   
+}
+var newVechicle=Motorbike()
+newVechicle.location="US"
+
+if let newLocation=newVechicle.location{
+    if newLocation=="US"{
+        print("you can purchase vechicle from US")
+    }else{
+        print("you can purchase vechicle from India")
+    }
+}
