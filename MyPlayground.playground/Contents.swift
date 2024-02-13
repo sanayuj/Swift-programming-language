@@ -180,22 +180,48 @@ print(greeting)
 
 //newOrder.name="Royal"
 //print(newOrder.name)
+//
+//class Person{
+//    var name=""
+//}
 
 
+//class Motorbike {
+//   
+//    var location:String?
+//    var name:Person?
+//    var company="BMW"
+//    
+//    var fullLocation: String {
+//        if let location = location, let person = name {
+//            return "made in \(location) by \(person.name)"
+//        } else if let location = location {
+//            return location
+//        } else {
+//            return "No Details Found"
+//        }
+//    }
 
-class Motorbike {
    
-    var location:String?
-    var company="BMW"
-   
-}
-var newVechicle=Motorbike()
-newVechicle.location="US"
+//}
+//var newVechicle=Motorbike()
+//newVechicle.location="US"
+//print(newVechicle.fullLocation )
 
-if let newLocation=newVechicle.location{
-    if newLocation=="US"{
-        print("you can purchase vechicle from US")
-    }else{
-        print("you can purchase vechicle from India")
-    }
-}
+//if let newLocation=newVechicle.location{
+//    if newLocation=="US"{
+//        print("you can purchase vechicle from US")
+//    }else{
+//        print("you can purchase vechicle from India")
+//    }
+//}
+//
+//if newVechicle.location != nil{
+//    print(newVechicle.location! + " Hello")
+//}
+
+
+var name=["sanay","akbar","rohith"]
+name+=["Unknown"]
+print(name)
+
